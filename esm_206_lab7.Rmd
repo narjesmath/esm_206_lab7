@@ -113,8 +113,7 @@ Holding all else constant, on average we expect the difference in body mass (g) 
 ggplot(data = penguins, aes(flipper_length_mm, y = body_mass_g)) + geom_point(aes(color = species)) +
   facet_wrap(~sex)
 ```
-Try to write inline code that spits out the coefficients for Gentoo
-`r penguin_model2_coef$estimate[3]`
+
 
 ```{r}
 penguin_model2_coef <- tidy(model_2)
