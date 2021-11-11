@@ -125,7 +125,7 @@ Try to write inline code that spits out the coefficients for Gentoo
 
 ## Look at model diagnostics
 Use the plot()
-Check for homodesciticity
+Check for homosdeciticity
 Normal QQ residuals are normally distributed
 
 
